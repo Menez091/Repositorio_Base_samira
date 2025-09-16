@@ -1,0 +1,8 @@
+nome_do_jogo=input("digite o nome do jogo:")
+valor_do_jogo=float(input("digite o valor do jogo:"))
+consumo_por_jogo=float(input("digite o consumo por jogo:"))
+print("------------------------------")
+print("| jogo:",nome_do_jogo)
+print("| valor:",valor_do_jogo)
+print("| consumo por jogo:",consumo_por_jogo)
+print("------------------------------")
