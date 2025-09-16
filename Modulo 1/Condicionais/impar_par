@@ -1,0 +1,13 @@
+numero =int(input("digite um numero inteiro:"))
+opcao=input("digite 's' para repetir a ação ou qualquer outra tecla para sair:")
+if numero % 2 ==0:
+     print(f"o numero {numero} e PAR.")
+elif numero %2==1:
+     print(f"o numero {numero} é IMPAR.")
+while opcao == 's':
+    numero=int(input("digite um numero:"))
+    if numero %2 ==0:
+         print(f"o {numero} e par")
+    elif numero %2 ==1:
+         print(f"{numero} e impar")
+opcao=input("digite 's' para repetir a açao ou qualquer outra tecla para sair:")
